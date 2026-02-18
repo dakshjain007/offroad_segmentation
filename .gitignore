@@ -1,0 +1,82 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.pyo
+*.pkl
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# PyTorch / Training
+# =========================
+*.pth
+*.pt
+*.onnx
+checkpoints/
+models/
+runs/
+wandb/
+logs/
+
+# Tensorboard
+events.out.tfevents.*
+
+# =========================
+# Dataset (VERY IMPORTANT)
+# prevents uploading large files to GitHub
+# =========================
+data/
+datasets/
+*.zip
+*.tar
+*.rar
+*.7z
+
+# Images generated during testing
+predictions/
+outputs/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Windows
+# =========================
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
